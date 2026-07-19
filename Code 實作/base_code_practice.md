@@ -74,83 +74,211 @@ pip install numpy pandas scipy scikit-learn fastapi uvicorn joblib pyarrow
 
 
 
-## 三、題目總覽
+## ??????
 
-共 **65 題**。建議先自行作答，再查閱對應答案檔。
+? **40 ?**???????? **80 ?**??????? 3 ??? 27 ????
 
-- [ ] 001. 型別轉換與交易金額驗證（入門）
-- [ ] 002. 條件判斷：交易金額分級（入門）
-- [ ] 003. 複利計算（入門）
-- [ ] 004. 閏年判斷（入門）
-- [ ] 005. FizzBuzz 變形：規則標記（入門）
-- [ ] 006. 一到 n 的總和（入門）
-- [ ] 007. 九九乘法表矩陣（入門）
-- [ ] 008. 質數判斷（入門）
-- [ ] 009. 最大公因數與最小公倍數（入門）
-- [ ] 010. 反轉字串與回文判斷（入門）
-- [ ] 011. 字元頻率統計（入門）
-- [ ] 012. 空白正規化（入門）
-- [ ] 013. 帳號遮罩（入門）
-- [ ] 014. 密碼規則驗證（入門）
-- [ ] 015. 保留順序去除重複值（入門）
-- [ ] 016. 第二大不重複值（入門）
-- [ ] 017. Two Sum（初階）
-- [ ] 018. 串列右旋（初階）
-- [ ] 019. 合併兩個已排序串列（初階）
-- [ ] 020. Top-K 高頻項目（初階）
-- [ ] 021. 集合交集與差集（初階）
-- [ ] 022. 依帳戶彙總交易（初階）
-- [ ] 023. 展平巢狀字典（初階）
-- [ ] 024. 串列生成式篩選（初階）
-- [ ] 025. 可變預設參數陷阱（初階）
-- [ ] 026. *args 與 **kwargs 費用計算器（初階）
-- [ ] 027. 多欄位排序（初階）
-- [ ] 028. 費波那契數列與記憶化（初階）
-- [ ] 029. 安全解析交易列（初階）
-- [ ] 030. 使用 context manager 讀檔（初階）
-- [ ] 031. BankAccount 類別（初階）
-- [ ] 032. 使用 deque 實作佇列（初階）
-- [ ] 033. 括號配對（初階）
-- [ ] 034. 二分搜尋（初階）
-- [ ] 035. 線性搜尋與比較（初階）
-- [ ] 036. 氣泡排序（初階）
-- [ ] 037. 插入排序（初階）
-- [ ] 038. 合併排序（中階）
-- [ ] 039. 快速排序（中階）
-- [ ] 040. 廣度優先搜尋 BFS（中階）
-- [ ] 041. 深度優先搜尋 DFS（中階）
-- [ ] 042. 無權重最短路徑（中階）
-- [ ] 043. 以 heap 取得前 K 大值（中階）
-- [ ] 044. 固定長度滑動視窗最大總和（中階）
-- [ ] 045. 雙指標移除重複值（中階）
-- [ ] 046. 前綴和區間查詢（中階）
-- [ ] 047. 和為 K 的子陣列數量（中階）
-- [ ] 048. CSV 交易彙總（中階）
-- [ ] 049. JSON Schema 基礎驗證（中階）
-- [ ] 050. 正規表示式驗證 Email（中階）
-- [ ] 051. 計算工作日（中階）
-- [ ] 052. NumPy Min-Max 正規化（中階）
-- [ ] 053. NumPy 矩陣乘法與 shape（中階）
-- [ ] 054. pandas 缺失值處理（中階）
-- [ ] 055. pandas 月交易彙總（中階）
-- [ ] 056. pandas 合併客戶與交易（中階）
-- [ ] 057. pandas 樞紐分析表（中階）
-- [ ] 058. SQLite 參數化查詢（中階）
-- [ ] 059. Generator 分批處理（中階）
-- [ ] 060. Decorator 記錄執行時間（中階）
-- [ ] 061. 單元測試：parse_amount（中階）
-- [ ] 062. 密碼安全雜湊（中階）
-- [ ] 063. 輸入白名單與 SQL 注入防護（中階）
-- [ ] 064. Big-O 優化：重複會員查找（中階）
-- [ ] 065. dataclass 交易資料模型（中階）
-
+- [ ] 001. 串列順序處理：清理待辦清單?入門?
+- [ ] 002. 串列索引與切片：取最近交易?入門?
+- [ ] 003. 字典查找：客戶欄位查詢?入門?
+- [ ] 004. 字典更新：狀態次數統計?入門?
+- [ ] 005. 串列轉字典：建立客戶查詢表?入門?
+- [ ] 006. if/elif/else：訊息分流?入門?
+- [ ] 007. for、continue、break：批次過濾訊息?入門?
+- [ ] 008. while 迴圈：尋找第一筆及格成績?入門?
+- [ ] 009. 型別轉換與交易金額驗證?入門?
+- [ ] 010. 條件判斷：交易金額分級?入門?
+- [ ] 011. 複利計算?入門?
+- [ ] 012. FizzBuzz 變形：規則標記?入門?
+- [ ] 013. 一到 n 的總和?入門?
+- [ ] 014. 字元頻率統計?入門?
+- [ ] 015. 空白正規化?入門?
+- [ ] 016. 帳號遮罩?入門?
+- [ ] 017. 密碼規則驗證?入門?
+- [ ] 018. 保留順序去除重複值?入門?
+- [ ] 019. Two Sum?初階?
+- [ ] 020. Top-K 高頻項目?初階?
+- [ ] 021. 依帳戶彙總交易?初階?
+- [ ] 022. 串列生成式篩選?初階?
+- [ ] 023. 多欄位排序?初階?
+- [ ] 024. 安全解析交易列?初階?
+- [ ] 025. 使用 context manager 讀檔?初階?
+- [ ] 026. 使用 deque 實作佇列?初階?
+- [ ] 027. 二分搜尋?初階?
+- [ ] 028. 廣度優先搜尋 BFS?中階?
+- [ ] 029. CSV 交易彙總?中階?
+- [ ] 030. JSON Schema 基礎驗證?中階?
+- [ ] 031. 正規表示式驗證 Email?中階?
+- [ ] 032. 計算工作日?中階?
+- [ ] 033. NumPy Min-Max 正規化?中階?
+- [ ] 034. NumPy 矩陣乘法與 shape?中階?
+- [ ] 035. pandas 缺失值處理?中階?
+- [ ] 036. pandas 月交易彙總?中階?
+- [ ] 037. pandas 合併客戶與交易?中階?
+- [ ] 038. pandas 樞紐分析表?中階?
+- [ ] 039. SQLite 參數化查詢?中階?
+- [ ] 040. 輸入白名單與 SQL 注入防護?中階?
 
 ---
 
-## 四、練習題
+## ?????
 
 
-### 001. 型別轉換與交易金額驗證
+### 001. 串列順序處理：清理待辦清單
+
+
+- **難度：** 入門
+- **主題：** list、順序、append
+
+
+#### 題目
+
+實作 `clean_tasks(tasks)`，接受一個待辦事項串列。請逐項去除前後空白，忽略空字串，並保留原本順序。
+回傳清理後的新串列，不可修改原本傳入的串列。
+
+
+#### 建議函式／介面
+
+```python
+def clean_tasks(tasks):
+```
+
+### 002. 串列索引與切片：取最近交易
+
+
+- **難度：** 入門
+- **主題：** list、索引、切片
+
+
+#### 題目
+
+實作 `latest_transactions(transactions, n)`，接受依時間由舊到新排列的交易串列，回傳最近 `n` 筆交易。
+若 `n` 小於等於 0，回傳空串列；若 `n` 大於資料筆數，回傳全部資料。不可修改原本串列。
+
+
+#### 建議函式／介面
+
+```python
+def latest_transactions(transactions, n):
+```
+
+### 003. 字典查找：客戶欄位查詢
+
+
+- **難度：** 入門
+- **主題：** dict、key 查找、預設值
+
+
+#### 題目
+
+實作 `get_customer_field(customer, field, default=None)`，接受單一客戶字典、欄位名稱與預設值。
+若欄位存在，回傳對應值；若不存在，回傳 `default`。若 `customer` 不是字典，拋出 `ValueError`。
+
+
+#### 建議函式／介面
+
+```python
+def get_customer_field(customer, field, default=None):
+```
+
+### 004. 字典更新：狀態次數統計
+
+
+- **難度：** 入門
+- **主題：** dict、迴圈、累計
+
+
+#### 題目
+
+實作 `count_status(records)`，接受交易紀錄串列。每筆紀錄是字典，可能包含 `"status"` 欄位。
+請統計各狀態出現次數；缺少 `"status"` 或狀態為空字串時，歸類為 `"UNKNOWN"`。
+
+
+#### 建議函式／介面
+
+```python
+def count_status(records):
+```
+
+### 005. 串列轉字典：建立客戶查詢表
+
+
+- **難度：** 入門
+- **主題：** list、dict、key 唯一性
+
+
+#### 題目
+
+實作 `build_customer_index(customers)`，接受客戶資料串列。每筆客戶資料是字典，且必須有 `"id"` 欄位。
+回傳以客戶 id 為 key、原客戶字典為 value 的查詢表。若缺少 id、id 為空或 id 重複，拋出 `ValueError`。
+
+
+#### 建議函式／介面
+
+```python
+def build_customer_index(customers):
+```
+
+### 006. if/elif/else：訊息分流
+
+
+- **難度：** 入門
+- **主題：** if/elif/else、字串判斷
+
+
+#### 題目
+
+實作 `classify_message(message)`，依訊息內容回傳分類：
+空白訊息回傳 `"EMPTY"`；包含 `"轉帳"` 或 `"匯款"` 回傳 `"TRANSFER"`；包含 `"密碼"` 回傳 `"PASSWORD"`；
+其他訊息回傳 `"OTHER"`。判斷前請先去除前後空白。
+
+
+#### 建議函式／介面
+
+```python
+def classify_message(message):
+```
+
+### 007. for、continue、break：批次過濾訊息
+
+
+- **難度：** 入門
+- **主題：** for、continue、break
+
+
+#### 題目
+
+實作 `collect_valid_messages(messages)`，逐筆處理訊息串列。
+空白訊息要用 `continue` 跳過；遇到內容為 `"STOP"` 的訊息時，用 `break` 停止處理；
+其他訊息去除前後空白後加入結果串列。
+
+
+#### 建議函式／介面
+
+```python
+def collect_valid_messages(messages):
+```
+
+### 008. while 迴圈：尋找第一筆及格成績
+
+
+- **難度：** 入門
+- **主題：** while、條件更新、索引
+
+
+#### 題目
+
+實作 `first_passing_index(scores, passing_score=60)`，使用 `while` 迴圈尋找第一個大於等於及格分數的索引。
+若找不到，回傳 `-1`。請注意每輪都要更新索引，避免無窮迴圈。
+
+
+#### 建議函式／介面
+
+```python
+def first_passing_index(scores, passing_score=60):
+```
+
+### 009. 型別轉換與交易金額驗證
 
 
 - **難度：** 入門
@@ -166,26 +294,10 @@ pip install numpy pandas scipy scikit-learn fastapi uvicorn joblib pyarrow
 #### 建議函式／介面
 
 ```python
-def parse_amount(value) -> Decimal:
+def parse_amount(value):
 ```
 
-
-#### 範例
-
-parse_amount("1234.567") -> Decimal("1234.57")
-parse_amount(-1) -> ValueError
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 002. 條件判斷：交易金額分級
+### 010. 條件判斷：交易金額分級
 
 
 - **難度：** 入門
@@ -201,27 +313,10 @@ parse_amount(-1) -> ValueError
 #### 建議函式／介面
 
 ```python
-def risk_band(amount: float) -> str:
+def risk_band(amount):
 ```
 
-
-#### 範例
-
-risk_band(9999) -> "LOW"
-risk_band(10000) -> "MEDIUM"
-risk_band(100000) -> "HIGH"
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 003. 複利計算
+### 011. 複利計算
 
 
 - **難度：** 入門
@@ -237,61 +332,10 @@ risk_band(100000) -> "HIGH"
 #### 建議函式／介面
 
 ```python
-def compound(principal: float, annual_rate: float, years: int, times_per_year: int = 12) -> float:
+def compound(principal, annual_rate, years, times_per_year=12):
 ```
 
-
-#### 範例
-
-compound(100000, 0.02, 1, 12) -> 約 102018.44
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 004. 閏年判斷
-
-
-- **難度：** 入門
-- **主題：** 布林邏輯、整除
-
-
-#### 題目
-
-實作 `is_leap_year(year)`。能被 400 整除為閏年；能被 100 整除但不能被 400 整除不是閏年；
-其餘能被 4 整除者為閏年。
-
-
-#### 建議函式／介面
-
-```python
-def is_leap_year(year: int) -> bool:
-```
-
-
-#### 範例
-
-is_leap_year(2000) -> True
-is_leap_year(1900) -> False
-is_leap_year(2024) -> True
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 005. FizzBuzz 變形：規則標記
+### 012. FizzBuzz 變形：規則標記
 
 
 - **難度：** 入門
@@ -307,25 +351,10 @@ is_leap_year(2024) -> True
 #### 建議函式／介面
 
 ```python
-def rule_tags(n: int) -> list[str]:
+def rule_tags(n):
 ```
 
-
-#### 範例
-
-rule_tags(5) -> ["1", "2", "A", "4", "B"]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 006. 一到 n 的總和
+### 013. 一到 n 的總和
 
 
 - **難度：** 入門
@@ -341,162 +370,11 @@ n 小於 0 時拋出 `ValueError`。
 #### 建議函式／介面
 
 ```python
-def sum_loop(n: int) -> int:
-def sum_formula(n: int) -> int:
+def sum_loop(n):
+def sum_formula(n):
 ```
 
-
-#### 範例
-
-sum_loop(100) == sum_formula(100) == 5050
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 007. 九九乘法表矩陣
-
-
-- **難度：** 入門
-- **主題：** 巢狀迴圈、二維串列
-
-
-#### 題目
-
-實作 `multiplication_table(n)`，回傳 n×n 二維串列，其中第 i 列第 j 欄為 `(i+1)*(j+1)`。
-n 必須大於 0。
-
-
-#### 建議函式／介面
-
-```python
-def multiplication_table(n: int) -> list[list[int]]:
-```
-
-
-#### 範例
-
-multiplication_table(3) -> [[1,2,3],[2,4,6],[3,6,9]]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 008. 質數判斷
-
-
-- **難度：** 入門
-- **主題：** 迴圈、平方根優化
-
-
-#### 題目
-
-實作 `is_prime(n)`。只需檢查因數到平方根，並正確處理 0、1、2 與負數。
-
-
-#### 建議函式／介面
-
-```python
-def is_prime(n: int) -> bool:
-```
-
-
-#### 範例
-
-is_prime(2) -> True
-is_prime(49) -> False
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 009. 最大公因數與最小公倍數
-
-
-- **難度：** 入門
-- **主題：** Euclidean algorithm
-
-
-#### 題目
-
-實作 `gcd(a,b)` 與 `lcm(a,b)`。允許負數輸入；gcd 回傳非負數。若任一數為 0，lcm 回傳 0。
-
-
-#### 建議函式／介面
-
-```python
-def gcd(a: int, b: int) -> int:
-def lcm(a: int, b: int) -> int:
-```
-
-
-#### 範例
-
-gcd(48, 18) -> 6
-lcm(6, 8) -> 24
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 010. 反轉字串與回文判斷
-
-
-- **難度：** 入門
-- **主題：** 切片、字串正規化
-
-
-#### 題目
-
-實作 `is_palindrome(text)`，忽略大小寫與非英數字元，判斷是否為回文。
-
-
-#### 建議函式／介面
-
-```python
-def is_palindrome(text: str) -> bool:
-```
-
-
-#### 範例
-
-is_palindrome("A man, a plan, a canal: Panama") -> True
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 011. 字元頻率統計
+### 014. 字元頻率統計
 
 
 - **難度：** 入門
@@ -511,25 +389,10 @@ is_palindrome("A man, a plan, a canal: Panama") -> True
 #### 建議函式／介面
 
 ```python
-def char_frequency(text: str) -> dict[str, int]:
+def char_frequency(text):
 ```
 
-
-#### 範例
-
-char_frequency("Aa b") -> {"a": 2, "b": 1}
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 012. 空白正規化
+### 015. 空白正規化
 
 
 - **難度：** 入門
@@ -544,25 +407,10 @@ char_frequency("Aa b") -> {"a": 2, "b": 1}
 #### 建議函式／介面
 
 ```python
-def normalize_spaces(text: str) -> str:
+def normalize_spaces(text):
 ```
 
-
-#### 範例
-
-normalize_spaces("  AI\tbank\n test ") -> "AI bank test"
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 013. 帳號遮罩
+### 016. 帳號遮罩
 
 
 - **難度：** 入門
@@ -578,25 +426,10 @@ normalize_spaces("  AI\tbank\n test ") -> "AI bank test"
 #### 建議函式／介面
 
 ```python
-def mask_account(account: str, visible: int = 4) -> str:
+def mask_account(account, visible=4):
 ```
 
-
-#### 範例
-
-mask_account("1234567890") -> "******7890"
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 014. 密碼規則驗證
+### 017. 密碼規則驗證
 
 
 - **難度：** 入門
@@ -612,25 +445,10 @@ mask_account("1234567890") -> "******7890"
 #### 建議函式／介面
 
 ```python
-def validate_password(password: str) -> tuple[bool, list[str]]:
+def validate_password(password):
 ```
 
-
-#### 範例
-
-validate_password("Abc123!xyz") -> (True, [])
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 015. 保留順序去除重複值
+### 018. 保留順序去除重複值
 
 
 - **難度：** 入門
@@ -645,59 +463,10 @@ validate_password("Abc123!xyz") -> (True, [])
 #### 建議函式／介面
 
 ```python
-def deduplicate(items: list) -> list:
+def deduplicate(items):
 ```
 
-
-#### 範例
-
-deduplicate([3,1,3,2,1]) -> [3,1,2]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 016. 第二大不重複值
-
-
-- **難度：** 入門
-- **主題：** 單次掃描、邊界
-
-
-#### 題目
-
-實作 `second_largest(numbers)`，回傳第二大的「不重複」值。若不足兩個不同值，拋出 `ValueError`。
-不得直接排序整個串列。
-
-
-#### 建議函式／介面
-
-```python
-def second_largest(numbers: list[float]) -> float:
-```
-
-
-#### 範例
-
-second_largest([5,1,5,3]) -> 3
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 017. Two Sum
+### 019. Two Sum
 
 
 - **難度：** 初階
@@ -713,90 +482,8 @@ second_largest([5,1,5,3]) -> 3
 #### 建議函式／介面
 
 ```python
-def two_sum(numbers: list[int], target: int) -> tuple[int, int] | None:
+def two_sum(numbers, target):
 ```
-
-
-#### 範例
-
-two_sum([2,7,11,15], 9) -> (0,1)
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 018. 串列右旋
-
-
-- **難度：** 初階
-- **主題：** 切片、模數
-
-
-#### 題目
-
-實作 `rotate_right(items, k)`，將串列向右旋轉 k 格；k 可大於串列長度，也可為負數。
-不得修改原串列。
-
-
-#### 建議函式／介面
-
-```python
-def rotate_right(items: list, k: int) -> list:
-```
-
-
-#### 範例
-
-rotate_right([1,2,3,4,5], 2) -> [4,5,1,2,3]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 019. 合併兩個已排序串列
-
-
-- **難度：** 初階
-- **主題：** 雙指標、排序
-
-
-#### 題目
-
-實作 `merge_sorted(a,b)`，在 O(n+m) 時間內合併兩個升冪串列，不得呼叫 `sorted()`。
-
-
-#### 建議函式／介面
-
-```python
-def merge_sorted(a: list[int], b: list[int]) -> list[int]:
-```
-
-
-#### 範例
-
-merge_sorted([1,3,7],[2,3,8]) -> [1,2,3,3,7,8]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
 
 ### 020. Top-K 高頻項目
 
@@ -813,58 +500,10 @@ merge_sorted([1,3,7],[2,3,8]) -> [1,2,3,3,7,8]
 #### 建議函式／介面
 
 ```python
-def top_k_frequent(items: list[str], k: int) -> list[tuple[str, int]]:
+def top_k_frequent(items, k):
 ```
 
-
-#### 範例
-
-top_k_frequent(["a","b","a","c","b","a"],2) -> [("a",3),("b",2)]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 021. 集合交集與差集
-
-
-- **難度：** 初階
-- **主題：** set、集合運算
-
-
-#### 題目
-
-給定兩份客戶 ID，回傳 `(兩者皆有, 只在A, 只在B)` 三個升冪串列。
-
-
-#### 建議函式／介面
-
-```python
-def compare_customers(a: list[int], b: list[int]) -> tuple[list[int], list[int], list[int]]:
-```
-
-
-#### 範例
-
-compare_customers([1,2,3],[2,3,4]) -> ([2,3],[1],[4])
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 022. 依帳戶彙總交易
+### 021. 依帳戶彙總交易
 
 
 - **難度：** 初階
@@ -879,60 +518,10 @@ compare_customers([1,2,3],[2,3,4]) -> ([2,3],[1],[4])
 #### 建議函式／介面
 
 ```python
-def aggregate_by_account(records: list[tuple[str, float]]) -> dict[str, float]:
+def aggregate_by_account(records):
 ```
 
-
-#### 範例
-
-aggregate_by_account([("A",10),("B",5),("A",3)]) -> {"A":13,"B":5}
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 023. 展平巢狀字典
-
-
-- **難度：** 初階
-- **主題：** 遞迴、dict
-
-
-#### 題目
-
-實作 `flatten_dict(data, sep=".")`，把任意深度的巢狀字典展平成單層鍵。
-例如 `{"a":{"b":1}}` 變成 `{"a.b":1}`。空字典保留為值。
-
-
-#### 建議函式／介面
-
-```python
-def flatten_dict(data: dict, sep: str = ".") -> dict:
-```
-
-
-#### 範例
-
-flatten_dict({"customer":{"id":7,"name":"Lin"}})
--> {"customer.id":7,"customer.name":"Lin"}
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 024. 串列生成式篩選
+### 022. 串列生成式篩選
 
 
 - **難度：** 初階
@@ -948,94 +537,10 @@ flatten_dict({"customer":{"id":7,"name":"Lin"}})
 #### 建議函式／介面
 
 ```python
-def filtered_squares(amounts: list[int], threshold: int) -> list[int]:
+def filtered_squares(amounts, threshold):
 ```
 
-
-#### 範例
-
-filtered_squares([-2,0,3,5],4) -> [25]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 025. 可變預設參數陷阱
-
-
-- **難度：** 初階
-- **主題：** 函式、預設參數、None sentinel
-
-
-#### 題目
-
-修正下列函式，使每次呼叫不會共用同一個 list：
-`def add_alert(alert, alerts=[]): alerts.append(alert); return alerts`
-
-
-#### 建議函式／介面
-
-```python
-def add_alert(alert: str, alerts: list[str] | None = None) -> list[str]:
-```
-
-
-#### 範例
-
-add_alert("A") -> ["A"]
-add_alert("B") -> ["B"]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 026. *args 與 **kwargs 費用計算器
-
-
-- **難度：** 初階
-- **主題：** 可變參數、參數解包
-
-
-#### 題目
-
-實作 `total_fee(*fees, discount=0, **taxes)`：先加總 fees，再乘上 `(1-discount)`，
-最後加上 taxes 的所有值。discount 必須介於 0 與 1。
-
-
-#### 建議函式／介面
-
-```python
-def total_fee(*fees: float, discount: float = 0, **taxes: float) -> float:
-```
-
-
-#### 範例
-
-total_fee(100,50,discount=0.1,vat=5) -> 140.0
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 027. 多欄位排序
+### 023. 多欄位排序
 
 
 - **難度：** 初階
@@ -1051,59 +556,10 @@ total_fee(100,50,discount=0.1,vat=5) -> 140.0
 #### 建議函式／介面
 
 ```python
-def sort_transactions(records: list[dict]) -> list[dict]:
+def sort_transactions(records):
 ```
 
-
-#### 範例
-
-輸入 risk 3/2/3 時，risk=3 先；同 risk 時 amount 較大者先。
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 028. 費波那契數列與記憶化
-
-
-- **難度：** 初階
-- **主題：** 遞迴、memoization、迭代
-
-
-#### 題目
-
-實作 `fibonacci(n)` 回傳第 n 個費波那契數，定義 F0=0、F1=1。n 不可為負。
-請避免指數時間的樸素遞迴。
-
-
-#### 建議函式／介面
-
-```python
-def fibonacci(n: int) -> int:
-```
-
-
-#### 範例
-
-fibonacci(10) -> 55
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 029. 安全解析交易列
+### 024. 安全解析交易列
 
 
 - **難度：** 初階
@@ -1119,25 +575,10 @@ fibonacci(10) -> 55
 #### 建議函式／介面
 
 ```python
-def parse_rows(lines: list[str]) -> tuple[list[tuple[str, float]], list[str]]:
+def parse_rows(lines):
 ```
 
-
-#### 範例
-
-["A,10.5","bad","B,x"] -> ([("A",10.5)], ["第2行：欄位數錯誤","第3行：金額錯誤"])
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 030. 使用 context manager 讀檔
+### 025. 使用 context manager 讀檔
 
 
 - **難度：** 初階
@@ -1152,62 +593,10 @@ def parse_rows(lines: list[str]) -> tuple[list[tuple[str, float]], list[str]]:
 #### 建議函式／介面
 
 ```python
-def count_nonempty_lines(path: str) -> int:
+def count_nonempty_lines(path):
 ```
 
-
-#### 範例
-
-檔案內容三行，其中一行空白 -> 2
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 031. BankAccount 類別
-
-
-- **難度：** 初階
-- **主題：** OOP、封裝、例外
-
-
-#### 題目
-
-建立 `BankAccount` 類別，具有唯讀 account_id、balance 屬性，以及 deposit、withdraw 方法。
-存提款必須大於 0；提款不得超過餘額。
-
-
-#### 建議函式／介面
-
-```python
-class BankAccount:
-```
-
-
-#### 範例
-
-acc = BankAccount("A001", 100)
-acc.deposit(50)
-acc.withdraw(20)
-acc.balance -> 130
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 032. 使用 deque 實作佇列
+### 026. 使用 deque 實作佇列
 
 
 - **難度：** 初階
@@ -1222,59 +611,10 @@ acc.balance -> 130
 #### 建議函式／介面
 
 ```python
-def process_queue(items: list[str]) -> list[str]:
+def process_queue(items):
 ```
 
-
-#### 範例
-
-process_queue(["A","B","C"]) -> ["A","B","C"]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 033. 括號配對
-
-
-- **難度：** 初階
-- **主題：** stack、dict
-
-
-#### 題目
-
-實作 `is_balanced(expression)`，檢查 `()[]{}` 是否正確巢狀配對。其他字元忽略。
-
-
-#### 建議函式／介面
-
-```python
-def is_balanced(expression: str) -> bool:
-```
-
-
-#### 範例
-
-is_balanced("a*(b+[c])") -> True
-is_balanced("([)]") -> False
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 034. 二分搜尋
+### 027. 二分搜尋
 
 
 - **難度：** 初階
@@ -1289,192 +629,10 @@ is_balanced("([)]") -> False
 #### 建議函式／介面
 
 ```python
-def binary_search(numbers: list[int], target: int) -> int:
+def binary_search(numbers, target):
 ```
 
-
-#### 範例
-
-binary_search([1,3,5,7],5) -> 2
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 035. 線性搜尋與比較
-
-
-- **難度：** 初階
-- **主題：** linear search、複雜度
-
-
-#### 題目
-
-實作 `linear_search(items,target)`，回傳第一個匹配索引，不存在回傳 -1。
-說明它何時比二分搜尋更適合。
-
-
-#### 建議函式／介面
-
-```python
-def linear_search(items: list, target) -> int:
-```
-
-
-#### 範例
-
-linear_search(["A","B","A"],"A") -> 0
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 036. 氣泡排序
-
-
-- **難度：** 初階
-- **主題：** sorting、交換、提前停止
-
-
-#### 題目
-
-實作升冪氣泡排序，回傳新串列。若某一輪沒有交換，應提前停止。
-
-
-#### 建議函式／介面
-
-```python
-def bubble_sort(items: list[int]) -> list[int]:
-```
-
-
-#### 範例
-
-bubble_sort([5,1,4,2]) -> [1,2,4,5]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 037. 插入排序
-
-
-- **難度：** 初階
-- **主題：** sorting、局部有序
-
-
-#### 題目
-
-實作升冪插入排序，回傳新串列。說明它在近乎排序資料上的優點。
-
-
-#### 建議函式／介面
-
-```python
-def insertion_sort(items: list[int]) -> list[int]:
-```
-
-
-#### 範例
-
-insertion_sort([4,2,3,1]) -> [1,2,3,4]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 038. 合併排序
-
-
-- **難度：** 中階
-- **主題：** divide and conquer、遞迴
-
-
-#### 題目
-
-實作 `merge_sort(items)`，回傳升冪新串列。不得使用內建排序。
-
-
-#### 建議函式／介面
-
-```python
-def merge_sort(items: list[int]) -> list[int]:
-```
-
-
-#### 範例
-
-merge_sort([5,2,4,1,3]) -> [1,2,3,4,5]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 039. 快速排序
-
-
-- **難度：** 中階
-- **主題：** partition、遞迴
-
-
-#### 題目
-
-實作簡潔版 `quick_sort(items)`，回傳升冪新串列，需正確處理重複值。
-並說明最差情況。
-
-
-#### 建議函式／介面
-
-```python
-def quick_sort(items: list[int]) -> list[int]:
-```
-
-
-#### 範例
-
-quick_sort([3,1,2,3]) -> [1,2,3,3]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 040. 廣度優先搜尋 BFS
+### 028. 廣度優先搜尋 BFS
 
 
 - **難度：** 中階
@@ -1490,260 +648,10 @@ quick_sort([3,1,2,3]) -> [1,2,3,3]
 #### 建議函式／介面
 
 ```python
-def bfs(graph: dict[str, list[str]], start: str) -> list[str]:
+def bfs(graph, start):
 ```
 
-
-#### 範例
-
-graph={"A":["B","C"],"B":["D"],"C":[],"D":[]}
-bfs(graph,"A") -> ["A","B","C","D"]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 041. 深度優先搜尋 DFS
-
-
-- **難度：** 中階
-- **主題：** graph、stack
-
-
-#### 題目
-
-以迭代方式實作 DFS，回傳拜訪順序。鄰居要按照 adjacency list 原順序深入。
-
-
-#### 建議函式／介面
-
-```python
-def dfs(graph: dict[str, list[str]], start: str) -> list[str]:
-```
-
-
-#### 範例
-
-graph={"A":["B","C"],"B":["D"],"C":[],"D":[]}
-dfs(graph,"A") -> ["A","B","D","C"]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 042. 無權重最短路徑
-
-
-- **難度：** 中階
-- **主題：** BFS、parent map
-
-
-#### 題目
-
-實作 `shortest_path(graph,start,end)`，回傳無權重圖中最少邊數的路徑；不存在回傳空串列。
-
-
-#### 建議函式／介面
-
-```python
-def shortest_path(graph: dict[str, list[str]], start: str, end: str) -> list[str]:
-```
-
-
-#### 範例
-
-A-B-D 與 A-C-E-D 中應回傳較短的 A-B-D。
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 043. 以 heap 取得前 K 大值
-
-
-- **難度：** 中階
-- **主題：** heapq、Top-K
-
-
-#### 題目
-
-實作 `largest_k(numbers,k)`，回傳前 k 大值的遞減串列。k 可為 0；若 k 大於資料長度，回傳全部。
-
-
-#### 建議函式／介面
-
-```python
-def largest_k(numbers: list[int], k: int) -> list[int]:
-```
-
-
-#### 範例
-
-largest_k([5,1,9,3,7],3) -> [9,7,5]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 044. 固定長度滑動視窗最大總和
-
-
-- **難度：** 中階
-- **主題：** sliding window
-
-
-#### 題目
-
-實作 `max_window_sum(numbers,k)`，回傳連續 k 個元素的最大總和。k 必須介於 1 與 len(numbers)。
-
-
-#### 建議函式／介面
-
-```python
-def max_window_sum(numbers: list[int], k: int) -> int:
-```
-
-
-#### 範例
-
-max_window_sum([2,1,5,1,3,2],3) -> 9
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 045. 雙指標移除重複值
-
-
-- **難度：** 中階
-- **主題：** two pointers、in-place
-
-
-#### 題目
-
-已排序串列 `numbers`，原地移除重複值，回傳有效長度 k；前 k 個元素需為唯一值。
-
-
-#### 建議函式／介面
-
-```python
-def remove_duplicates_sorted(numbers: list[int]) -> int:
-```
-
-
-#### 範例
-
-numbers=[1,1,2,2,3] -> k=3，numbers[:3]==[1,2,3]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 046. 前綴和區間查詢
-
-
-- **難度：** 中階
-- **主題：** prefix sum
-
-
-#### 題目
-
-建立 `build_prefix(numbers)`，再實作 `range_sum(prefix,left,right)` 回傳包含兩端的區間總和。
-需驗證索引。
-
-
-#### 建議函式／介面
-
-```python
-def build_prefix(numbers: list[int]) -> list[int]:
-def range_sum(prefix: list[int], left: int, right: int) -> int:
-```
-
-
-#### 範例
-
-numbers=[2,4,1,3]，range_sum(prefix,1,3) -> 8
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 047. 和為 K 的子陣列數量
-
-
-- **難度：** 中階
-- **主題：** prefix sum、hash map
-
-
-#### 題目
-
-實作 `count_subarrays_sum(numbers,k)`，計算連續子陣列總和等於 k 的數量。元素可為負數。
-
-
-#### 建議函式／介面
-
-```python
-def count_subarrays_sum(numbers: list[int], k: int) -> int:
-```
-
-
-#### 範例
-
-count_subarrays_sum([1,1,1],2) -> 2
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 048. CSV 交易彙總
+### 029. CSV 交易彙總
 
 
 - **難度：** 中階
@@ -1759,25 +667,10 @@ CSV 欄位為 `account,amount`。實作 `sum_csv(path)`，以 UTF-8-sig 讀取�
 #### 建議函式／介面
 
 ```python
-def sum_csv(path: str) -> dict[str, float]:
+def sum_csv(path):
 ```
 
-
-#### 範例
-
-A,10 與 A,5 -> {"A":15.0}
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 049. JSON Schema 基礎驗證
+### 030. JSON Schema 基礎驗證
 
 
 - **難度：** 中階
@@ -1793,25 +686,10 @@ A,10 與 A,5 -> {"A":15.0}
 #### 建議函式／介面
 
 ```python
-def parse_payment_json(payload: str) -> dict:
+def parse_payment_json(payload):
 ```
 
-
-#### 範例
-
-'{"customer_id":"C1","amount":100,"currency":"TWD"}' -> dict
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 050. 正規表示式驗證 Email
+### 031. 正規表示式驗證 Email
 
 
 - **難度：** 中階
@@ -1827,25 +705,10 @@ def parse_payment_json(payload: str) -> dict:
 #### 建議函式／介面
 
 ```python
-def is_valid_email(email: str) -> bool:
+def is_valid_email(email):
 ```
 
-
-#### 範例
-
-is_valid_email("user.name+tag@example.com") -> True
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 051. 計算工作日
+### 032. 計算工作日
 
 
 - **難度：** 中階
@@ -1861,25 +724,10 @@ is_valid_email("user.name+tag@example.com") -> True
 #### 建議函式／介面
 
 ```python
-def business_days(start: date, end: date, holidays: set[date]) -> int:
+def business_days(start, end, holidays):
 ```
 
-
-#### 範例
-
-週一到週五、無假日 -> 5
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 052. NumPy Min-Max 正規化
+### 033. NumPy Min-Max 正規化
 
 
 - **難度：** 中階
@@ -1898,22 +746,7 @@ def business_days(start: date, end: date, holidays: set[date]) -> int:
 def minmax_scale(values):
 ```
 
-
-#### 範例
-
-[10,20,30] -> [0.0,0.5,1.0]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 053. NumPy 矩陣乘法與 shape
+### 034. NumPy 矩陣乘法與 shape
 
 
 - **難度：** 中階
@@ -1928,25 +761,10 @@ def minmax_scale(values):
 #### 建議函式／介面
 
 ```python
-def linear_scores(X, w, b: float):
+def linear_scores(X, w, b):
 ```
 
-
-#### 範例
-
-X shape=(3,2), w shape=(2,) -> output shape=(3,)
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 054. pandas 缺失值處理
+### 035. pandas 缺失值處理
 
 
 - **難度：** 中階
@@ -1965,22 +783,7 @@ age 以中位數補值，income 缺失列刪除，city 以 `"UNKNOWN"` 補值，
 def clean_customers(df):
 ```
 
-
-#### 範例
-
-輸出為清理後的新 DataFrame。
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 055. pandas 月交易彙總
+### 036. pandas 月交易彙總
 
 
 - **難度：** 中階
@@ -1999,22 +802,7 @@ DataFrame 含 `account`、`timestamp`、`amount`。實作每帳戶每月的交�
 def monthly_summary(df):
 ```
 
-
-#### 範例
-
-同一帳戶同月多筆交易合併為一列。
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 056. pandas 合併客戶與交易
+### 037. pandas 合併客戶與交易
 
 
 - **難度：** 中階
@@ -2033,22 +821,7 @@ customers 有唯一 `customer_id`；transactions 可有多筆同客戶。實作 
 def enrich_transactions(transactions, customers):
 ```
 
-
-#### 範例
-
-交易客戶不存在時仍保留該列。
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 057. pandas 樞紐分析表
+### 038. pandas 樞紐分析表
 
 
 - **難度：** 中階
@@ -2067,22 +840,7 @@ DataFrame 含 `branch`、`channel`、`amount`。實作分行×通路的金額總
 def branch_channel_pivot(df):
 ```
 
-
-#### 範例
-
-index=branch，columns=channel，值為 amount sum。
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 058. SQLite 參數化查詢
+### 039. SQLite 參數化查詢
 
 
 - **難度：** 中階
@@ -2098,162 +856,10 @@ index=branch，columns=channel，值為 amount sum。
 #### 建議函式／介面
 
 ```python
-def find_transactions(conn, account: str, min_amount: float) -> list[tuple]:
+def find_transactions(conn, account, min_amount):
 ```
 
-
-#### 範例
-
-回傳 cursor.fetchall()。
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 059. Generator 分批處理
-
-
-- **難度：** 中階
-- **主題：** yield、迭代器、記憶體
-
-
-#### 題目
-
-實作 `chunks(iterable,size)`，把任意 iterable 分成最多 size 個元素的 list 逐批 yield。
-size 必須大於 0。
-
-
-#### 建議函式／介面
-
-```python
-def chunks(iterable, size: int):
-```
-
-
-#### 範例
-
-list(chunks(range(5),2)) -> [[0,1],[2,3],[4]]
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 060. Decorator 記錄執行時間
-
-
-- **難度：** 中階
-- **主題：** decorator、functools、time
-
-
-#### 題目
-
-實作 `timed` decorator，執行函式後印出函式名稱與耗時，並保留原函式 metadata。
-即使函式拋出例外也要記錄耗時。
-
-
-#### 建議函式／介面
-
-```python
-def timed(func):
-```
-
-
-#### 範例
-
-@timed
-def work(): ...
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 061. 單元測試：parse_amount
-
-
-- **難度：** 中階
-- **主題：** unittest、邊界測試
-
-
-#### 題目
-
-為第 1 題 `parse_amount` 撰寫 unittest，至少測正常四捨五入、負數、非數字、NaN 四種情況。
-
-
-#### 建議函式／介面
-
-```python
-class ParseAmountTests(unittest.TestCase):
-```
-
-
-#### 範例
-
-執行 `python -m unittest` 應全部通過。
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 062. 密碼安全雜湊
-
-
-- **難度：** 中階
-- **主題：** hashlib、salt、constant-time compare
-
-
-#### 題目
-
-實作 `hash_password(password)` 與 `verify_password(password, stored)`，
-使用 `hashlib.pbkdf2_hmac`、隨機 salt 與至少 200,000 次迭代。stored 可採 `iterations$salt_hex$digest_hex`。
-
-
-#### 建議函式／介面
-
-```python
-def hash_password(password: str) -> str:
-def verify_password(password: str, stored: str) -> bool:
-```
-
-
-#### 範例
-
-verify_password("secret", hash_password("secret")) -> True
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 063. 輸入白名單與 SQL 注入防護
+### 040. 輸入白名單與 SQL 注入防護
 
 
 - **難度：** 中階
@@ -2269,93 +875,8 @@ direction 只允許 `ASC,DESC`（不分大小寫）。回傳安全的 ORDER BY �
 #### 建議函式／介面
 
 ```python
-def build_order_clause(field: str, direction: str) -> str:
+def build_order_clause(field, direction):
 ```
-
-
-#### 範例
-
-build_order_clause("amount","desc") -> "ORDER BY amount DESC"
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 064. Big-O 優化：重複會員查找
-
-
-- **難度：** 中階
-- **主題：** 複雜度、set
-
-
-#### 題目
-
-原程式對每筆交易執行 `if customer_id in customer_list`，customer_list 是 list。
-實作 `filter_known_transactions(transactions, customer_ids)`，先建立適當資料結構，
-回傳已知客戶交易。
-
-
-#### 建議函式／介面
-
-```python
-def filter_known_transactions(transactions: list[dict], customer_ids: list[str]) -> list[dict]:
-```
-
-
-#### 範例
-
-大量交易與會員資料時，應避免每筆線性搜尋。
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
-
-
-### 065. dataclass 交易資料模型
-
-
-- **難度：** 中階
-- **主題：** dataclasses、型別、__post_init__
-
-
-#### 題目
-
-建立不可變的 `Transaction` dataclass，欄位為 `tx_id: str`、`amount: Decimal`、`currency: str`。
-在 `__post_init__` 驗證 tx_id 不可為空、amount 不可為負、currency 必須是三碼大寫英文字母。
-
-
-#### 建議函式／介面
-
-```python
-@dataclass(frozen=True)
-class Transaction:
-```
-
-
-#### 範例
-
-Transaction("T001", Decimal("100.00"), "TWD") 可建立；
-Transaction("", Decimal("1"), "TWD") -> ValueError
-
-
-#### 自我檢查
-
-- [ ] 正常案例通過
-- [ ] 空值／邊界／錯誤輸入已處理
-- [ ] 能說明使用的資料結構
-- [ ] 能寫出時間與空間複雜度
-- [ ] 沒有把敏感資料直接印到日誌
 
 ## 參考依據（官方公開資料）
 
