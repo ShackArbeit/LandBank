@@ -124,7 +124,7 @@ pip install numpy pandas scipy scikit-learn fastapi uvicorn joblib pyarrow
 ## ?????
 
 
-### 001. 串列順序處理：清理待辦清單
+### 001. 串列順序處理：清理待辦清單 ( 7/19 Done )
 
 
 - **難度：** 入門
@@ -143,7 +143,7 @@ pip install numpy pandas scipy scikit-learn fastapi uvicorn joblib pyarrow
 def clean_tasks(tasks):
 ```
 
-### 002. 串列索引與切片：取最近交易
+### 002. 串列索引與切片：取最近交易 ( 7/20 Done )
 
 
 - **難度：** 入門
@@ -162,7 +162,7 @@ def clean_tasks(tasks):
 def latest_transactions(transactions, n):
 ```
 
-### 003. 字典查找：客戶欄位查詢
+### 003. 字典查找：客戶欄位查詢 ( 7/20 Done )
 
 
 - **難度：** 入門
@@ -181,7 +181,7 @@ def latest_transactions(transactions, n):
 def get_customer_field(customer, field, default=None):
 ```
 
-### 004. 字典更新：狀態次數統計
+### 004. 字典更新：狀態次數統計 ( 7/20 Done )
 
 
 - **難度：** 入門
@@ -200,7 +200,7 @@ def get_customer_field(customer, field, default=None):
 def count_status(records):
 ```
 
-### 005. 串列轉字典：建立客戶查詢表
+### 005. 串列轉字典：建立客戶查詢表 ( 7/21 Done)
 
 
 - **難度：** 入門
@@ -219,7 +219,7 @@ def count_status(records):
 def build_customer_index(customers):
 ```
 
-### 006. if/elif/else：訊息分流
+### 006. if/elif/else：訊息分流 ( 7/21 Done )
 
 
 - **難度：** 入門
@@ -239,7 +239,7 @@ def build_customer_index(customers):
 def classify_message(message):
 ```
 
-### 007. for、continue、break：批次過濾訊息
+### 007. for、continue、break：批次過濾訊息 ( 7/21 Done )
 
 
 - **難度：** 入門
@@ -259,7 +259,7 @@ def classify_message(message):
 def collect_valid_messages(messages):
 ```
 
-### 008. while 迴圈：尋找第一筆及格成績
+### 008. while 迴圈：尋找第一筆及格成績 ( 7/21 Done )
 
 
 - **難度：** 入門
@@ -278,7 +278,7 @@ def collect_valid_messages(messages):
 def first_passing_index(scores, passing_score=60):
 ```
 
-### 009. 型別轉換與交易金額驗證
+### 009. 型別轉換與交易金額驗證 ( 7/21 Done )
 
 
 - **難度：** 入門
@@ -297,7 +297,7 @@ def first_passing_index(scores, passing_score=60):
 def parse_amount(value):
 ```
 
-### 010. 條件判斷：交易金額分級
+### 010. 條件判斷：交易金額分級 ( 7/21 Done )
 
 
 - **難度：** 入門
