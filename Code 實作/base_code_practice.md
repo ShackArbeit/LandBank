@@ -335,7 +335,7 @@ def risk_band(amount):
 def compound(principal, annual_rate, years, times_per_year=12):
 ```
 
-### 012. FizzBuzz 變形：規則標記
+### 012. FizzBuzz 變形：規則標記 ( 7/22 Done )
 
 
 - **難度：** 入門
@@ -354,7 +354,7 @@ def compound(principal, annual_rate, years, times_per_year=12):
 def rule_tags(n):
 ```
 
-### 013. 一到 n 的總和
+### 013. 一到 n 的總和 ( 7/22 Done )
 
 
 - **難度：** 入門
@@ -374,7 +374,7 @@ def sum_loop(n):
 def sum_formula(n):
 ```
 
-### 014. 字元頻率統計
+### 014. 字元頻率統計 ( 7/22 Done )
 
 
 - **難度：** 入門
@@ -392,7 +392,7 @@ def sum_formula(n):
 def char_frequency(text):
 ```
 
-### 015. 空白正規化
+### 015. 空白正規化 ( 7/22 Done )
 
 
 - **難度：** 入門
@@ -410,7 +410,7 @@ def char_frequency(text):
 def normalize_spaces(text):
 ```
 
-### 016. 帳號遮罩
+### 016. 帳號遮罩 ( 7/22 Done )
 
 
 - **難度：** 入門
@@ -429,7 +429,7 @@ def normalize_spaces(text):
 def mask_account(account, visible=4):
 ```
 
-### 017. 密碼規則驗證
+### 017. 密碼規則驗證 ( 7/ 22 Done )
 
 
 - **難度：** 入門
@@ -448,7 +448,7 @@ def mask_account(account, visible=4):
 def validate_password(password):
 ```
 
-### 018. 保留順序去除重複值
+### 018. 保留順序去除重複值 ( 7/22 Done )
 
 
 - **難度：** 入門
