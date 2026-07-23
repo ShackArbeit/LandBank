@@ -466,7 +466,7 @@ def validate_password(password):
 def deduplicate(items):
 ```
 
-### 019. Two Sum
+### 019. Two Sum ( 7/23 Done )
 
 
 - **難度：** 初階
@@ -485,7 +485,7 @@ def deduplicate(items):
 def two_sum(numbers, target):
 ```
 
-### 020. Top-K 高頻項目
+### 020. Top-K 高頻項目 (7/23 Done )
 
 
 - **難度：** 初階
@@ -503,7 +503,7 @@ def two_sum(numbers, target):
 def top_k_frequent(items, k):
 ```
 
-### 021. 依帳戶彙總交易
+### 021. 依帳戶彙總交易 ( 7/23 Done )
 
 
 - **難度：** 初階
@@ -521,7 +521,7 @@ def top_k_frequent(items, k):
 def aggregate_by_account(records):
 ```
 
-### 022. 串列生成式篩選
+### 022. 串列生成式篩選 ( 7/23 Done )
 
 
 - **難度：** 初階
