@@ -540,7 +540,7 @@ def aggregate_by_account(records):
 def filtered_squares(amounts, threshold):
 ```
 
-### 023. 多欄位排序
+### 023. 多欄位排序 ( 7/24 Done )
 
 
 - **難度：** 初階
@@ -559,7 +559,7 @@ def filtered_squares(amounts, threshold):
 def sort_transactions(records):
 ```
 
-### 024. 安全解析交易列
+### 024. 安全解析交易列 ( 7/24 Done )
 
 
 - **難度：** 初階
