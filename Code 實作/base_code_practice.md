@@ -578,7 +578,7 @@ def sort_transactions(records):
 def parse_rows(lines):
 ```
 
-### 025. 使用 context manager 讀檔
+### 025. 使用 context manager 讀檔 ( 7/26 Done )
 
 
 - **難度：** 初階
@@ -596,7 +596,7 @@ def parse_rows(lines):
 def count_nonempty_lines(path):
 ```
 
-### 026. 使用 deque 實作佇列
+### 026. 使用 deque 實作佇列 ( 7/26 Done )
 
 
 - **難度：** 初階
