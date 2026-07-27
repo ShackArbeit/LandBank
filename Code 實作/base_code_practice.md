@@ -614,7 +614,7 @@ def count_nonempty_lines(path):
 def process_queue(items):
 ```
 
-### 027. 二分搜尋
+### 027. 二分搜尋 ( 7/27 Done  )
 
 
 - **難度：** 初階
@@ -632,7 +632,7 @@ def process_queue(items):
 def binary_search(numbers, target):
 ```
 
-### 028. 廣度優先搜尋 BFS
+### 028. 廣度優先搜尋 BFS ( 7/27 Done )
 
 
 - **難度：** 中階
