@@ -651,7 +651,7 @@ def binary_search(numbers, target):
 def bfs(graph, start):
 ```
 
-### 029. CSV 交易彙總
+### 029. CSV 交易彙總 ( 7/27 Skip )
 
 
 - **難度：** 中階
@@ -670,7 +670,7 @@ CSV 欄位為 `account,amount`。實作 `sum_csv(path)`，以 UTF-8-sig 讀取�
 def sum_csv(path):
 ```
 
-### 030. JSON Schema 基礎驗證
+### 030. JSON Schema 基礎驗證 ( 7/27 Skip )
 
 
 - **難度：** 中階
@@ -689,7 +689,7 @@ def sum_csv(path):
 def parse_payment_json(payload):
 ```
 
-### 031. 正規表示式驗證 Email
+### 031. 正規表示式驗證 Email ( 7/27 Skip )
 
 
 - **難度：** 中階

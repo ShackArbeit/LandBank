@@ -982,9 +982,7 @@ O(V+E) 時間、O(V) 空間
 #### Python 解答
 
 ```python
-import csv
-from collections import defaultdict
-
+u
 def sum_csv(path):
     totals = defaultdict(float)
     with open(path, 'r', encoding='utf-8-sig', newline='') as file:
