@@ -708,7 +708,7 @@ def parse_payment_json(payload):
 def is_valid_email(email):
 ```
 
-### 032. 計算工作日
+### 032. 計算工作日 ( 7/28 Done  )
 
 
 - **難度：** 中階
@@ -727,7 +727,7 @@ def is_valid_email(email):
 def business_days(start, end, holidays):
 ```
 
-### 033. NumPy Min-Max 正規化
+### 033. NumPy Min-Max 正規化 ( 7/28 Done )
 
 
 - **難度：** 中階

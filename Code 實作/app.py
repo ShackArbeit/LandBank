@@ -1,11 +1,16 @@
-import csv
-from collections import defaultdict
+import numpy as np
+def minmax_scale(values):
+    arr = np.asarray(values,dtype=float)
+    if arr.ndim!=1:
+        raise ValueError('只接受一維資料')
+    if arr.size ==0:
+        return arr.copy()
+    minimum = arr.min()
+    maximum = arr.max()
+    if maximum == minimum:
+        return np.zeros_like(arr)
+    return (arr-minimum)/(maximum-minimum)
 
-def sum_csv(path):
-    totals = defaultdict(float)
-    with open(path,'r',encoding='utf-8',newline='') as file:
-        reader = csv.DictReader(file)
-        required = {'account','amount'}
-        if not required.issubset(reader.filename or []):
-            raise ValueError('缺少必要欄位')
-        if not 
+values = [10, 20, 30, 40, 50]
+result = minmax_scale(values)
+print(result)
