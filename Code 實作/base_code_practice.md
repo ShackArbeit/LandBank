@@ -746,7 +746,7 @@ def business_days(start, end, holidays):
 def minmax_scale(values):
 ```
 
-### 034. NumPy 矩陣乘法與 shape
+### 034. NumPy 矩陣乘法與 shape ( 7/29 Done )
 
 
 - **難度：** 中階
@@ -764,7 +764,7 @@ def minmax_scale(values):
 def linear_scores(X, w, b):
 ```
 
-### 035. pandas 缺失值處理
+### 035. pandas 缺失值處理 ( 7/29 Done )
 
 
 - **難度：** 中階
